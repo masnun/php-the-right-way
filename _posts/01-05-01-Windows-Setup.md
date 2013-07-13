@@ -1,21 +1,16 @@
 ---
+title: উইন্ডোজে সেটাপ
 isChild: true
 ---
 
-## Windows Setup {#windows_setup_title}
 
-PHP is available in several ways for Windows. You can [download the binaries][php-downloads] and until recently you could use a '.msi' 
-installer. The installer is no longer supported and stops at PHP 5.3.0.
+## উইন্ডোজে সেটাপ 
 
-For learning and local development you can use the built in webserver with PHP 5.4+ so you don't need to worry about configuring it. If you 
-would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such as the [Web Platform Installer][wpi], 
-[Zend Server CE][zsce], [XAMPP][xampp] and [WAMP][wamp] will help get a Windows development environment up and running fast. That said, these tools will be 
-a little different from production so be careful of environment differences if you are working on Windows and deploying to Linux.
+উইন্ডোজে বেশ কয়েকভাবে পিএইচপি সেটাপ করা যায় । [এখান][php-downloads] থেকে উইন্ডোজের জন্য পিএইচপি বাইনারী ডাউনলোড করে নিতে পারেন । 
 
-If you need to run your production system on Windows then IIS7 will give you the most stable and best performance. You can use 
-[phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with FastCGI built in and ready 
-to go, you just need to configure PHP as a handler. For support and additional resources there is a [dedicated area on iis.net][php-iis] for 
-PHP.
+শেখা এবং লোকালি ডেভেলপ করার জন্য পিএইচপির বিল্ট ইন সার্ভার ব্যবহার করা যেতে পারে । আপনি চাইলে এই "অল-ইন-ওয়ান" ইনস্টলারগুলো ব্যবহার করতে পারেন - [Web Platform Installer][wpi], [Zend Server CE][zsce], [XAMPP][xampp] এবং [WAMP][wamp] - এই প্যাকেজগুলো ইনস্টলশেন প্রসেসটি বেশ সহজ করে দিবে । তবে লক্ষ্যনীয় বিষয় - উইন্ডোজে ডেভেলপমেন্ট এনভায়রনমেন্ট কিছুটা ভিন্ন হওয়ায় লিনাক্স সার্ভারে এ্যাপ্লিকেশন ডেপ্লয় করার সময় সমস্যায় পড়তে হতে পারে । এই ব্যাপারটির দিকে সযত্ন দৃষ্টি দেওয়া জরুরী । এ
+
+উইন্ডোজেই যদি পিএইচপি ডেপ্লয় করতে হয় সেক্ষেত্রে IIS হতে পারে ভালো পছন্দ । আইআইএস এ পিএইচপি ম্যানেজ করার জন্য ব্যবহার করতে পারেন - [phpmanager][phpmanager] । IIS7 এ FastCGI হ্যান্ডলার হিসেবে পিএইচপি কাজ করতে পারে । আরো বিস্তারিত জানতে আইআইএস এর পিএইচপি পেইজ ভিজিট করতে পারেন - [এখানে][php-iis] ।
 
 [php-downloads]: http://windows.php.net
 [phpmanager]: http://phpmanager.codeplex.com/
