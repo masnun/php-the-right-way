@@ -1,2 +1,7 @@
-# Getting Started {#getting_started_title}
+---
+title: চলুন শুরু করি
+isChild: false
+---
+
+# চলুন শুরু করি 
 

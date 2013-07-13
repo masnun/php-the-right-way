@@ -1,14 +1,17 @@
 ---
-title: Built-in Web Server
+title: বিল্ট ইন ওয়েব সার্ভার
 isChild: true
 ---
 
-## Built-in web server {#builtin_web_server_title}
+## বিল্ট ইন ওয়েব সার্ভার 
 
-You can start learning PHP without the hassle of installing and configuring a full-fledged web server (PHP 5.4+ required). To start the server, run the following from your terminal in your project's web root:
+আগের কার দিনে পিএইচপি নিয়ে কাজ করতে গেলে শুরুতেই প্রয়োজন হত একটি সার্ভার সেটাপ করার । এ্যাপাচি, আইআইএস, এনজিনক্স নাকি অন্য কিছু? উইন্ডোজে আবার ওয়াম্প, জ্যাম্প, পিএইচপি ট্র্যায়াড আরো কত কি । পিএইচপি 5.4 থেকে কোন ধরণের সার্ভার ইন্সটলশেনের ঝক্কিতে না গেলেও চলবে । কারণ এখন পিএইচপির সাথেই আছে একটি বিল্ট ইন সার্ভার । এটি চালু করতে আপনার টার্মিনালে টাইপ করুন: 
 
     > php -S localhost:8000
 
-* [Learn about the built-in, command line web server][cli-server]
+* [আরো বিস্তারিত জানতে এখানে দেখুন][cli-server]
+
+পিএইচপির বিল্ট ইন সার্ভারটি লোকাল ডেভেলপমেন্ট এর জন্য বেশ কার্যকর হলেও প্রোডাকশন এনভায়রনমেন্টের জন্য যথেষ্ট পরিপক্ক না । 
+
 
 [cli-server]: http://www.php.net/manual/en/features.commandline.webserver.php

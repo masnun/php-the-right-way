@@ -1,20 +1,18 @@
 ---
+title: ম্যাকে সেটাপ
 isChild: true
 ---
 
-## Mac Setup  {#mac_setup_title}
+## ম্যাকে সেটাপ 
 
-OSX comes prepackaged with PHP but it is normally a little behind the latest stable. Lion comes with PHP 5.3.6 and
-Mountain Lion has 5.3.10.
+ওএসএক্স এ পিএইচপি দেওয়াই তাকে কিন্তু সেগুলো সাধারণত বেশ পুরোনো হয় । তাই সর্বশেষ ভার্সনে আপগ্রেড করে নেওয়াই শ্রেয় । 
 
-To update PHP on OSX you can get it installed through a number of Mac [package managers][mac-package-managers], with
-[php-osx by Liip][php-osx-downloads] being recommended.
+ওএসএক্স এ পিএইচপি ইনস্টলেশনের জন্য রয়েছে বেশ কিছু কার্যকরী [প্যাকেজ ম্যানেজার][mac-package-managers], যার মধ্যে
+[php-osx by Liip][php-osx-downloads] প্রায়শই রিকমেন্ড করা হয় । হোমব্রিউও চমৎকার কাজ করে । 
 
-The other option is to [compile it yourself][mac-compile], in that case be sure to have installed either Xcode or
-Apple's substitute ["Command Line Tools for Xcode"][apple-developer] downloadable from Apple's Mac Developer Center.
+আরেকটি অপশন হলো [নিজে কম্পাইল করে নেওয়া][mac-compile], সেক্ষেত্রে এক্সকোড কিংবা ["Command Line Tools for Xcode"][apple-developer] ইনস্টল করে নিতে হবে । 
 
-For a complete "all-in-one" package including PHP, Apache web server and MySQL database, all this with a nice control
-GUI, try [MAMP][mamp-downloads].
+এছাড়া ম্যাকে পিএইচপি ডেভেলপমেন্ট এর জন্য [MAMP][mamp-downloads] সমানভাবে জনপ্রিয় । এটির মাধ্যমে একটি এ্যাপ্লিকেশনের মধ্যেই এ্যাপাচি, মাইসিকুয়েল এবং পিএইচপি একসাথে পাওয়া যাবে । সাথে থাকছে সুন্দর একটি গ্র্যাফিকাল ইন্টারফেইস । 
 
 [mac-package-managers]: http://www.php.net/manual/en/install.macosx.packages.php
 [mac-compile]: http://www.php.net/manual/en/install.macosx.compile.php

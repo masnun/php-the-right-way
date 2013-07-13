@@ -1,11 +1,12 @@
 ---
-title: Use the Current Stable Version (5.5)
+title: সর্বশেষ স্ট্যাবল ভার্সন ব্যবহার করুন (PHP 5.5)
 isChild: true
 ---
 
-## Use the Current Stable Version (5.5) {#use_the_current_stable_version_55_title}
+## সর্বশেষ স্ট্যাবল ভার্সন ব্যবহার করুন (PHP 5.5) 
 
-If you are just getting started with PHP make sure to start with the current stable release of [PHP 5.5][php-release]. PHP has made great strides adding powerful [new features](#language_highlights) over the last few years. Don't let the minor version number difference between 5.2 and 5.5 fool you, it represents _major_ improvements. If you are looking for a function or it's usage, the documentation on the [php.net][php-docs] website will have the answer.
+আপনি যদি নতুন করে পিএইচপি শুরু যাচ্ছেন তবে সর্বশেষ স্ট্যাবল ভার্সন ব্যবার করুন । এজন্য দেখুন [PHP 5.5][php-release] ডাউনলোড সেকশন । গত কয়েক বছর ধরে পিএইচপিতে এসেছে চমৎকার সব [নতুন ফিচার](#language_highlights) । হয়তো ভাবছেন ভার্সন 5.2 আর 5.5 এর মধ্য কতটুকু আর পার্থক্য থাকতে পারে? পিএইচপির বেলায় পরিবর্তনটা বেশ চোখে লাগার মত । তাই বিভ্রান্ত না হয়ে শুরু করুন লেটেস্ট ভার্সন দিয়েই ।  সব ধরণের ডকুমেন্টশনের জন্য ঢু মারুন [php.net][php-docs] এ । এখানেই পাবেন পিএইচপির নানা ফাংশন, ক্লাস, কনস্ট্যান্ট সহ সকল টেকনিক্যাল প্রশ্নের উত্তর । 
+
 
 [php-release]: http://www.php.net/downloads.php
 [php-docs]: http://www.php.net/manual/en/
