@@ -1,12 +1,10 @@
-# Welcome
+# স্বাগতম
 
-There's a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and bad
-code. This must stop. _PHP: The Right Way_ is an easy-to-read, quick reference for PHP best practices, accepted coding
-standards, and links to authoritative tutorials around the Web.
+ওয়েবে পিএইচপি সম্পর্কিত অনেক পুরোনো তথ্য রয়েছে যেগুলো পিএইচপি ডেভেলপারদের ভুল পথে পরিচালিত করে, লেখা হয় অনেক বাজে কোড, অনুসরণ করা হয় না বেস্ট প্র্যাকটিসগুলো ।  _PHP: The Right Way_ চালু করা হয় এই সমস্যার পরিত্রানের জন্য । এখানে পাবেন পিএইচপি সংশ্লিষ্ট আপডেটেড ইনফরমেশন, গুরুত্বপূর্ণ অনেক রিসোর্স, গ্রহনযোগ্য কোডিং প্র্যাকটিস, চমৎকার সব টিউটোরিয়ালের লিংক এবং সর্বোপরি পিএইচপি ডেভেলপমেন্ট এর জন্য একটি সার্বিক গাইডলাইন । 
 
-## Translations
+## অনুবাদ
 
-_PHP: The Right Way_ is (or soon will be) translated into many different languages:
+_PHP: The Right Way_ বিভিন্ন ভাষায় অনূদিত হয়েছে অথবা হচ্ছে । নিচের এর একটি তালিকা পাওয়া যাবে :
 
 * [English](http://www.phptherightway.com)
 * Catalan (Link broken... we're looking into it)
@@ -23,25 +21,17 @@ _PHP: The Right Way_ is (or soon will be) translated into many different languag
 * [German](http://rwetzlmayr.github.io/php-the-right-way/)
 * [Turkish](http://hkulekci.github.io/php-the-right-way/)
 
-## Disclaimer
+## দায় স্বীকার
 
-_There is no canonical way to use PHP_. However, this website is a humble display of best practices,
-available options, and good information. It aims to introduce new PHP developers and to rethink seasoned pros with fresh
-ideas.
+_পিএইচপি ব্যবহার করার জন্য কোন নির্দিষ্ট আইনসিদ্ধ নিয়ম নেই _. এই ওয়েবসাইটটি তৈরি করা হয়েছে বেস্ট প্র্যাকটিস, নানা ধরণের অপশন, এবং সঠিক তথ্য প্রচার করার প্রচেষ্টায় । আশা করি এই সাইটটি নবীনদের দিক নির্দেশনা দেওয়ার পাশাপাশি প্রবীন ডেভেলপারদেরও সহায়তা করবে পিএইচপি নিয়ে নতুন করে ভাবতে । এই সাইটটি কাজ করবে একটি চলমান ডকুমেন্ট হিসেবে যেখানে ক্রমান্বয়ে আরো নতুন নতুন তথ্য এবং উদাহরণ যোগ করা হবে । 
 
-This is a living document and will continue to be updated with more helpful information and examples as they become
-available.
+## কিভাবে অবদান রাখবেন? 
 
-## How to Contribute
+আপনিও চাইলে সমৃদ্ধ করতে পারেন এই তথ্যভান্ডারটি । এজন্য [গিটহাবে দেখুন][1] ।
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+## ছড়িয়ে দিন সবার মাঝে
 
-## Spread the Word!
+_PHP: The Right Way_ এর উদ্দেশ্য তখনই সফল হবে যখন আপনি এবং আপনার পরিচিত ডেভেলপাররা এর থেকে উপকৃত হবে । তাই এই সাইটটির কথা ছড়িয়ে দিন সবার মাঝে । আমাদের রয়েছে কিছু [ব্যানার][2] যা আপনি আপনার ওয়েব সাইটে ব্যবহার করতে পারেন । 
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP developers
-know where to find good information!
-
-[See Banner Images][2]
-
-[1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
+[1]: https://github.com/masnun/php-the-right-way/tree/gh-pages
 [2]: /banners.html
