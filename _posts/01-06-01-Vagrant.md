@@ -1,23 +1,16 @@
 ---
+title: ভ্যাগ্রান্ট
 isChild: true
 ---
 
-## Vagrant {#vagrant_title}
+## ভ্যাগ্রান্ট (Vagrant)
 
-Running your application on different environments in development and production can lead to strange bugs 
-popping up when you go live. It's also tricky to keep different development environments up to date with the same 
-version for all libraries used when working with a team of developers. 
+ডেভেলপমেন্ট এবং প্রোডাকশন এর জন্য ভিন্ন ভিন্ন এনভায়রনমেন্ট ব্যবহার করলে মাঝে মাঝেই অদ্ভূত পরিস্থিতির সম্মূখীন হতে হয় । এছাড়াও সব এনভায়রনমেন্ট এ বিভিন্ন লাইব্রেরীগুলো আপডেট করে একই ভার্সনে রাখাও কষ্টসাধ্য, বিশেষ করে যখন টীমে কাজ করা হয় । 
 
-If you are developing on Windows and deploying to Linux (or anything non-Windows) or are developing in a team, you 
-should consider using a virtual machine. This sounds tricky, but using [Vagrant][vagrant] you can set up a simple 
-virtual machine with only a few steps. These base boxes can then be set up manually, or you can use "provisioning" 
-software such as [Puppet][puppet] or [Chef][chef] to do this for you. Provisioning the base box is a great way to 
-ensure that multiple boxes are set up in an identical fashion and removes the need for you to maintain complicated 
-"set up" command lists. You can also "destroy" your base box and recreate it without many manual steps, making it
-easy to create a "fresh" installation.
+আপনি যদি উইন্ডোজে ডেভেলপ করে লিনাক্সে ডেপ্লয় করেন তবে আপনার উচিৎ হবে ভার্চুয়াল মেশিন ব্যবহার করার কথা বিবেচনা করা । শুনে জটিল মনে হলেও আসলে বেশ সহজ । [Vagrant][vagrant] ব্যবহার করে খুব সহজেই ভার্চুয়াল মেশিন সেটাপ করা যায় । একবার ভ্যাগ্রান্ট সেটাপ করে নিলে পরে [Puppet][puppet] কিংবা [Chef][chef] এর মত প্রভিশনিং টুল ব্যবহার করে একাধিক এনভায়রনমেন্টকে একই রকম কনফিগার করা সম্ভব । এই টুলগুলো ব্যবহার করলে আর আমাদের জটিল জটিল সেটাপ কমান্ড নিয়ে মাথা ঘামাতে হবে না । এছাড়াও আপনি সব কিছু মুছে ফেলে আবার নতুন করে তৈরি করে নিতে পারেন একেবারে ফ্রেশ এনভায়রনমেন্ট । 
 
-Vagrant creates shared folders used to share your code between your host and your virtual machine, meaning you can 
-create and edit your files on your host machine and then run the code inside your virtual machine.
+ভ্যাগ্রান্ট হোস্ট মেশিন এবং ভার্চুয়াল মেশিনের মধ্য শেয়ার্ড ফোল্ডার তৈরি করে । আপনি হোস্ট মেশিন (যেটি কিনা আপনার পিসি বা ম্যাক) এ বসে কাজ করবেন কিন্তু এ্যাপ্লিকেশনটি রান করবে গেস্ট (বা ভার্চুয়াল) মেশিনে । 
+
 
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/
