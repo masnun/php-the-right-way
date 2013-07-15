@@ -1,33 +1,25 @@
 # কোড স্টাইল গাইড
 
-The PHP community is large and diverse, composed of innumerable libraries, frameworks, and components. It is common for
-PHP developers to choose several of these and combine them into a single project. It is important that PHP code adhere
-(as close as possible) to a common code style to make it easy for developers to mix and match various libraries for
-their projects.
 
-The [Framework Interop Group][fig] has proposed and approved a series of style recommendations, known as [PSR-0][psr0], 
-[PSR-1][psr1] and [PSR-2][psr2]. Don't let the funny names confuse you, these recommendations are merely 
-a set of rules that some projects like Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium, etc are starting 
-to adopt. You can use them for your own projects, or continue to use your own personal style.
+পিএইচপি কমিউনিটিটা বেশ বড়, বৈচিত্র্যপূর্ন - অসংখ্যা লাইব্রেরী, ফ্রেমওয়ার্ক এবং কম্পোনেন্ট এর সমাহার দেখা যায় এই কমিউনিটিতে । স্বাভাবিকভাবেই ডেভেলপাররা এগুলো থেকে বেশ প্রয়োজনমত কম্পোনেন্টগুলো বেছে নিয়ে তাদের প্রজেক্টে ব্যবহার করেন । ঠিক একারণেই সব পিএইচপি কোড একটি কমন কোড স্টাইল অনুসরণ করে লেখা প্রয়োজন যাতে ডেভেলপারদের জন্য বিভিন্ন লাইব্রেরী এক করা সহজ হয়। 
 
-Ideally you should write PHP code that adheres to a known standard. This could be any combination of PSR's, or one 
-of the coding standards made by PEAR or Zend. This means other developers can easily read and work with your code, 
-and applications that implement the components can have consistency even when working with lots of third-party code. 
+এই উদ্দেশ্যে [The Framework Interop Group][fig] কতগুলো স্টাইল প্রস্তাব এবং অনুমোদন করেছে, যেমন-  [PSR-0][psr0], [PSR-1][psr1] এবং [PSR-2][psr2]. এই কোড স্টাইল ইতোমধ্যে  Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium সহ অনেক প্রজেক্ট অনুসরণ করা শুরু করেছে । আপনিও আপনার প্রজেক্টে এগুলো অনুসরণ করা শুরু করতে পারেন ।
 
-* [Read about PSR-0][psr0]
-* [Read about PSR-1][psr1]
-* [Read about PSR-2][psr2]
-* [Read about PEAR Coding Standards][pear-cs]
-* [Read about Zend Coding Standards][zend-cs]
+তবে সাধারণত এমনভাবে কোড লেখা উচিৎ যাতে কোড একটি নির্দিষ্ট স্ট্যান্ডার্ড অনুসরণ করে । হতে পারে তা PSR গুলোর সমন্বয় অথবা কোন পরিচিত স্ট্যান্ডার্ড যেমন PEAR বা Zend । আমাদের মূল লক্ষ্য থাকবে যাতে অন্য ডেভেলপাররা আমাদের কোড সহজে পড়তে পারে এবং আমাদের কোড নিয়ে কাজ করতে পারে । এই স্ট্যান্ডার্ডগুলো অনুসরণ করা হলে কোন এ্যাপ্লিকেশন যদি অনেক থার্ড পার্টি কম্পোনেন্টও ব্যবহার করে তারপরও কনসিস্টেন্সী থাকবে । 
 
-You can use [PHP_CodeSniffer][phpcs] to check code against any one of these recommendations, and plugins for text editors 
-like [Sublime Text 2][st-cs] to be given real time feedback. 
+নিচের লিংক গুলো থেকে স্ট্যান্ডার্ডগুলো সম্পর্কে আরো জানতে পারবেন - 
 
-Use Fabien Potencier's [PHP Coding Standards Fixer][phpcsfixer] to automatically modify your code syntax so that it
-conforms with these standards, saving you from fixing each problem by hand.
+* [PSR-0][psr0]
+* [PSR-1][psr1]
+* [PSR-2][psr2]
+* [PEAR][pear-cs]
+* [Zend][zend-cs]
 
-English is preferred for all symbol names and code infrastructure. Comments may be written in any language easily readable 
-by all current and future parties who may be working on the codebase.
+আপনি চাইলে [PHP_CodeSniffer][phpcs] ব্যবহার করে এইসব স্ট্যান্ডার্ডের সাথে আপনার লেখা কোড তুলনা করতে পারেন । এই টুলটি কোড স্টাইলের নানা অসঙ্গতি তুলে ধরবে । কোন কোন টেক্সট এডিটর বা আইডিএ তে এর জন্য প্লাগিনও পাবেন যেমন - [Sublime Text 2 PHP CS][st-cs] । 
+
+এছাড়া Fabien Potencier এর [PHP Coding Standards Fixer][phpcsfixer] ব্যবহার করে অটোমেটিক্যালি সিনট্যাক্স ঠিক করে নিতে পারেন । এতে আপনার সময় বাচবে । 
+
+কোড লেখার জন্য ইংরেজীটাই প্রাধান্য দেওয়া উচিৎ, বিশেষ করে বিভিন্ন সিম্বল ডেফিনিশনের বেলায় । কমেন্ট টা প্রজেক্ট অনুযায়ী অন্য ভাষায় করা যেতে পারে তবে সেক্ষেত্রে যারা পরবর্তীতে এই প্রজেক্টে কাজ করবে তাদের সম্ভাব্য ভাষা জ্ঞান মাথায় রাখা জরুরী । 
 
 [fig]: http://www.php-fig.org/
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
