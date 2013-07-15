@@ -2,19 +2,44 @@
 isChild: true
 ---
 
-## Programming Paradigms {#programming_paradigms_title}
+## প্রোগ্রামিং প্যারাডাইম 
 
-PHP is a flexible, dynamic language that supports a variety of programming techniques. It has evolved dramatically over
-the years, notably adding a solid object-oriented model in PHP 5.0 (2004), anonymous functions and namespaces in PHP 5.3 
-(2009), and traits in PHP 5.4 (2012). 
+#### প্যারাডাইম কি? 
 
-### Object-oriented Programming
+প্যারাডাইম হলো কোন কিছু করার মৌলিক পদ্ধতি । সাধারণত কোন কিছু আমরা যে ভিন্ন ভিন্ন উপায়ে করে থাকি সেগুলোই হলো ঐ কাজের জন্য প্যারাডাইম ।  প্রোগ্রামিং এর বেলায়ও এরকম ৪টি প্রধান প্যারাডাইম আছে - 
+* imperative
+* declarative
+* functional
+* objec oriented
 
-PHP has a very complete set of object-oriented programming features including support for classes, abstract classes,
-interfaces, inheritance, constructors, cloning, exceptions, and more.
+প্রোগ্রামিং প্যারাডাইম সম্পর্কে আরো বিস্তারিত জানতে ঘুরে আসুন উইকিপিডিয়ায় - [Programming Paradigm][pdg]
 
-* [Read about Object-oriented PHP][oop]
-* [Read about Traits][traits]
+#### পিএইচপি এবং প্রোগ্রামিং প্যারাডাইম 
+ 
+পিএইচপি একটি ফ্লেক্সিবল, ডাইনামিক ল্যাঙ্গুয়েজ যেটা একাধিক প্রোগ্রামিং টেকনিক সাপোর্ট করে । গত কয়েক বছরে পিএইচপিতে এসেছে নাটকীয় পরিবর্তন । তার মধ্যে উল্লেখযোগ্য -
+
+* ২০০৪ সালে PHP 5.0 তে একটি সলিড অবজেক্ট ওরিয়েন্টেড মডেল যোগ করা হয় 
+* ২০০৯ এ এসে এ্যানোনিমস ফাংশন, নেইমস্পেইস যোগ হয় PHP 5.3 এ
+* ২০১২ তে PHP 5.4 এ আমরা পাই ট্রেইটস
+* ২০১৩ এ জেনারেটর নিয়ে আসে PHP 5.5
+
+
+
+### অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং
+
+পিএইপিতে পাবেন অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং এর জন্য প্রয়োজনীয় ফিচারগুলোর একটি পূর্নাঙ্গ সেট । যার মধ্যে আছে - 
+* ক্লাস
+* এ্যাবস্ট্র্যাক্ট ক্লাস
+* ইন্টারফেইস
+* ইনহেরিট্যান্স
+* কন্স্ট্রাক্টরস
+* ক্লোনিং
+* এক্সেপশন, ইত্যাদি ।
+
+নিচের লিংক দুটো থেকে পিএইচপির অবজেক্ট ওরিয়েন্টেড ফিচারগুলো সম্পর্কে আরো বিস্তারিত জানতে পারবেন - 
+
+* [Object-oriented PHP][oop]
+* [Traits][traits]
 
 ### Functional Programming
 
@@ -58,3 +83,4 @@ available as `__call()` and `__callStatic()`.
 [traits]: http://www.php.net/traits
 [call-user-func-array]: http://php.net/manual/en/function.call-user-func-array.php
 [closures-rfc]: https://wiki.php.net/rfc/closures
+[pdg]: https://en.wikipedia.org/wiki/Programming_paradigm
