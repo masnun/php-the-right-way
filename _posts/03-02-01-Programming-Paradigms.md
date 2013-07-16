@@ -10,7 +10,7 @@ isChild: true
 * imperative
 * declarative
 * functional
-* objec oriented
+* object oriented
 
 প্রোগ্রামিং প্যারাডাইম সম্পর্কে আরো বিস্তারিত জানতে ঘুরে আসুন উইকিপিডিয়ায় - [Programming Paradigm][pdg]
 
